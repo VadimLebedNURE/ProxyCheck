@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net7.0\proxy-list.txt" />
+    <Content Include="bin\Debug\net7.0\ProxyCheck.deps.json" />
+    <Content Include="bin\Debug\net7.0\ProxyCheck.runtimeconfig.json" />
+    <Content Include="bin\Debug\net7.0\working-proxy-list.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net7.0\ProxyCheck.dll" />
+    <None Include="bin\Debug\net7.0\ProxyCheck.exe" />
+    <None Include="bin\Debug\net7.0\ProxyCheck.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net7.0\" />
+  </ItemGroup>
+
+</Project>
